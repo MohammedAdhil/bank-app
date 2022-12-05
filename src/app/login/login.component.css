@@ -14,8 +14,11 @@ h1{
     position: relative;
 } */
 .container{
-    
+     /* border-radius: 1px,red;
+    background: transparent;  */
     background-image: linear-gradient(45deg,#5E5C5C,#9DC5C3);
+    background: rgba(65, 70, 69, 0.5);
+    /* border: red; */
     width: 500px;
     height: 400px;
     /* padding-top: 250px; */
