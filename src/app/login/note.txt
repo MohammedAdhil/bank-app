@@ -31,3 +31,44 @@ Router            -  class
 
 AppRoutingModule  - module (aleady present in app module)
 
+
+3-DEPENDENCY INJECTION
+---------------------
+
+-to use a method of class in another class
+-in constructor
+
+-steps:
+    access specifier - public/private
+    variable
+    class name
+    
+    example:    private variable:Classname  (private router:Router)
+
+
+ANGULAR SERVICES
+----------------
+
+ng g s servicename - command used to generate services
+
+
+ANGULAR DIERECTIVES
+------------------
+
+1-Structural dierectives : to handle structured datas in view of a component
+
+    -ngFor  - can dierectly apply in html to access elements from array
+
+
+VALIDATION IN ANGULAR
+---------------------
+
+1.Form Validation In Angular:
+-----------------------------
+
+we can create forms in two way
+    1.Template Driven Form
+    
+    
+    2.Model Driven Form
+

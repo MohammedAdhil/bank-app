@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container p-5 rounded" >
+    <h1>TRANSACTION HISTORY</h1>
+    <table class="styled-table text-center">
+        
+        <thead>
+        <tr>
+            <th>Type</th>
+            <th>Amount</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let i of transaction">
+                <td>{{i.type}}</td>
+                <td>{{i.amount}}</td>
+            </tr>
+            
+           
+            
+
+            
+
+
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

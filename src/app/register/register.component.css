@@ -1,0 +1,25 @@
+
+
+body{
+    padding-top: 200px;
+    /* margin: 700px; */
+    /* padding-left: 55%;  */
+} 
+.container{
+    /* border-radius: 1px,red;
+   background: transparent;  */
+   background-image: linear-gradient();
+   /* background: rgba(65, 70, 69, 0.5); */
+   /* border: red; */
+   width: 500px;
+   height: 450px;
+   /* border-style: double; */
+   /* padding-top: 250px; */
+   box-shadow: 0 0 60px white;
+
+}
+
+h1{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
